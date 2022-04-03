@@ -7,9 +7,9 @@ struct Base
     virtual ~Base() {}
 };
 
-struct A : public Base {};
-struct B : public Base {};
-struct C : public Base {};
+struct A : Base {};
+struct B : Base {};
+struct C : Base {};
 
 Base* generate()
 {

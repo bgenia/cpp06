@@ -5,7 +5,7 @@
 #include <iomanip>
 #include <cmath>
 
-template<typename T>
+template <typename T>
 void printConversion(T value)
 {
     bool isNumber = !std::isnan(value) && std::isfinite(value);
